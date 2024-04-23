@@ -1,0 +1,100 @@
+
+
+/*Autor: William Alves dos Santos, Vinicius Ferreira Viana
+Data: 21/04/2024
+Trabalho Final da Unidade - Avaliação Prática de Linguagem de Programação
+
+Descrição do Projeto:
+Este projeto consiste na criação de uma tela de login inspirada na série "Stranger Things". A tela foi desenvolvida sem a integração de um banco de dados, focando exclusivamente na interface. A interação do usuário é realizada por meio do JavaScript, que inclui um prompt como entrada de dados e um alert como saída de dados e um favicon,
+ sem muita complexidade.
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.logo > img{
+    display: flex;
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-items > li{
+    padding-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20%;   
+}
+
+.card{
+    display: block;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: black;
+}
+
+.email{
+    border: 1px solid rgb(233, 227, 227);
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 3px;
+    outline: none;
+    padding: 12px;
+}
+
+.senha{
+    border: 1px solid rgb(233, 227, 227);
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 4px;
+    outline: none;
+    padding: 12px;
+}
+
+.botao{
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    background-color: rgb(252, 55, 55);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background: rgb(221, 47, 47);
+    cursor: pointer;
+}
